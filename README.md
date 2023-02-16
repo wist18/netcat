@@ -117,7 +117,7 @@ script read from STDIN and will do so until it receives the end-of-file (EOF) ma
 CTRL-D on your keyboard.
 
 ```
-python3 netcat.py -t 192.168.1.203 -p 5555
+python3 netcat.py -t 0.0.0.0 -p 5555
 ```
 
 While not a super technological challenge, this script is a good foundation for discovering security exploits.
@@ -132,10 +132,10 @@ using the -e switch:
 
 Run the following command in a terminal to run the script in *listener mode*:
 ```
-python3 netcat.py -t 192.168.1.203 -p 5555 -l -e="cat /etc/passwd"
+python3 netcat.py -t 0.0.0.0 -p 5555 -l -e="cat /etc/passwd"
 ```
 
 Run the following command in a terminal to run the script in *client mode*:
 ```
-python3 netcat.py -t 192.168.1.203 -p 5555
+python3 netcat.py -t 0.0.0.0 -p 5555
 ```
