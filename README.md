@@ -12,7 +12,7 @@ even open up an interractive shell. Let's get started:
 Libraries used include `argparse`, `socket`, `shlex`, 
 `subprocess`, `sys`, `textwrap` and `threading`.
 
-The argparse module form the standard library is used to
+The *argparse* module form the standard library is used to
 create a command line interface. 
 
 ## Usage
