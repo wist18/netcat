@@ -109,4 +109,5 @@ python netcat.py -t 192.168.1.203 -p 5555 -l -c
 ```
 
 ***Important!*** The IP adress 192.168.1.203 might be reserved or already in use. The IP adress only serves
-as an example. Running it would result in an OSError. Try something like 0.0.0.0 or 127.0.0.1.
+as an example. Running it would most likely result in an OSError. Try something like 0.0.0.0 or 127.0.0.1,
+unless you are into cryptic error messages.
