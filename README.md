@@ -119,3 +119,23 @@ CTRL-D on your keyboard.
 ```
 python3 netcat.py -t 192.168.1.203 -p 5555
 ```
+
+While not a super technological challenge, this script is a good foundation for discovering security exploits.
+
+Bonus application:
+
+You can see that we receive our custom command shell. Because we’re
+on a Unix host, we can run local commands and receive output in return,
+as if we had logged in via SSH or were on the box locally. We can perform
+the same setup on your local machine, but have it execute a single command
+using the -e switch:
+
+Run the following command in a terminal to run the script in *listener mode*:
+```
+python3 netcat.py -t 192.168.1.203 -p 5555 -l -e="cat /etc/passwd"
+```
+
+Run the following command in a terminal to run the script in *client mode*:
+```
+python3 netcat.py -t 192.168.1.203 -p 5555
+```
