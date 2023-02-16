@@ -101,3 +101,12 @@ Example:
                             echo 'ABC' | ./netcat.py -t 192.168.1.108 -p 135 # echo text to server port 135
                             netcat.py -t 192.168.1.108 -p 5555 # connect to server
 ```
+
+On the same terminal you can set up a *listener* using your own IP and port.
+
+```
+python netcat.py -t 192.168.1.203 -p 5555 -l -c
+```
+
+***Important!*** The IP adress 192.168.1.203 might be reserved or already in use. The IP adress only serves
+as an example. Running it would result in an OSError. Try something like 0.0.0.0 or 127.0.0.1.
