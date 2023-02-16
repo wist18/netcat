@@ -11,8 +11,10 @@ Libraries used include `argparse`, `socket`, `shlex`,
 `subprocess`, `sys`, `textwrap` and `threading`.
 
 The argparse module form the standard library is used to
-create a command line interface. Example usage cases are
-provided in the source code (netcat.py):
+create a command line interface. 
+
+## usage
+`usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
 
 - The `-c` argument sets up an interactive shell;
 - The `-e` argument executes one specific command;
