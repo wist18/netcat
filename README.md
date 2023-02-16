@@ -32,8 +32,8 @@ If the solutions above do not work, a Virtual Machine
 This project runs on Python 3.6 or higher. Run the following 
 commands to check and update the python version currently installed:
 
-`python3`\
-`sudo apt-get upgrade python3`
+```python3```
+```sudo apt-get upgrade python3```
 
 ## Usage
 `usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
@@ -89,8 +89,8 @@ options:
                         upload file
 
 Example:
-                                        netcat.py -t 0.0.0.0 -p 5555 -l -c # command shell
-                                        netcat.py -t 0.0.0.0 -p 5555 -l -u=mytest.txt # upload to file
-                                        netcat.py -t 0.0.0.0 -p 5555 -l -e="cat /etc/passwd" # execute command
-                                        echo 'ABC' | ./netcat.py -t 0.0.0.0 -p 135 # echo text to server port 135
-                                        netcat.py -t 0.0.0.0 -p 5555 # connect to server```
+                            netcat.py -t 0.0.0.0 -p 5555 -l -c # command shell
+                            netcat.py -t 0.0.0.0 -p 5555 -l -u=mytest.txt # upload to file
+                            netcat.py -t 0.0.0.0 -p 5555 -l -e="cat /etc/passwd" # execute command
+                            echo 'ABC' | ./netcat.py -t 0.0.0.0 -p 135 # echo text to server port 135
+                            netcat.py -t 0.0.0.0 -p 5555 # connect to server```
