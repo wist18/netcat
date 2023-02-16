@@ -68,7 +68,9 @@ listener side and use netcat itself on the sender side.
 ## Tutorial - some examples
 
 In one terminal, run the script with the *--help* argument.
-`python3 netcat.py --help`
+```
+python3 netcat.py --help
+```
 
 Expected output:
 ```
