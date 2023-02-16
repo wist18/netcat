@@ -122,7 +122,7 @@ python3 netcat.py -t 192.168.1.203 -p 5555
 
 While not a super technological challenge, this script is a good foundation for discovering security exploits.
 
-Bonus application:
+## Bonus application:
 
 You can see that we receive our custom command shell. Because we’re
 on a Unix host, we can run local commands and receive output in return,
