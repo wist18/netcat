@@ -105,9 +105,17 @@ Example:
 On the same terminal you can set up a *listener* using your own IP and port.
 
 ```
-python netcat.py -t 192.168.1.203 -p 5555 -l -c
+python3 netcat.py -t 192.168.1.203 -p 5555 -l -c
 ```
 
 ***Important!*** The IP adress 192.168.1.203 might be reserved or already in use. The IP adress only serves
 as an example. Running it would most likely result in an OSError. Try something like 0.0.0.0 or 127.0.0.1,
 unless you are into cryptic error messages.
+
+Now fire up another terminal on your local machine and run the script in *client mode*. Remember that the
+script read from STDIN and will do so until it receives the end-of-file (EOF) marker. To send EOF, press
+CTRL-D on your keyboard.
+
+```
+python3 netcat.py -t 192.168.1.203 -p 5555
+```
