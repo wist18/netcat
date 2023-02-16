@@ -20,9 +20,9 @@ create a command line interface.
 This project has been done on a Linux environment.
 
 Alternative solutions:
-    - **Linux** works natively (this code is tested on Ubuntu 18.04)
-    - **Windows** is supported through *WSL2*
-    - **MacOS** is not supported
+- **Linux** works natively (this code is tested on Ubuntu 18.04)
+- **Windows** is supported through *WSL2*
+- **MacOS** is not supported
 
 If the solutions above do not work, a Virtual Machine 
 (e.g., Virtual Box running Ubuntu) is a safe and viable option.
