@@ -32,11 +32,11 @@ If the solutions above do not work, a Virtual Machine
 This project runs on Python 3.6 or higher. Run the following 
 commands to check and update the python version currently installed:
 
-```python3
-sudo apt-get upgrade python3```
+`python3`\
+`sudo apt-get upgrade python3`
 
 ## Usage
-````usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
+`usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
 
 - The `-c` argument sets up an interactive shell;
 - The `-e` argument executes one specific command;
