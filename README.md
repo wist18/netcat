@@ -7,13 +7,15 @@ write data across the network, meaning it can be used to
 execute remote commands, pass files back and forth, or
 even open up an interractive shell. Let's get started:
 
+## Libraries used
+
 Libraries used include `argparse`, `socket`, `shlex`, 
 `subprocess`, `sys`, `textwrap` and `threading`.
 
 The argparse module form the standard library is used to
 create a command line interface. 
 
-## usage
+## Usage
 `usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
 
 - The `-c` argument sets up an interactive shell;
