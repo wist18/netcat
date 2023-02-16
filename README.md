@@ -34,6 +34,8 @@ commands to check and update the python version currently installed:
 
 ```
 python3
+```
+```
 sudo apt-get upgrade python3
 ```
 
