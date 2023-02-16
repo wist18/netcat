@@ -7,8 +7,8 @@ write data across the network, meaning it can be used to
 execute remote commands, pass files back and forth, or
 even open up an interractive shell. Let's get started:
 
-Libraries used include argparse, socket, shlex, subprocess,
-sys, textwrap and threading.
+Libraries used include `argparse`, `socket`, `shlex`, 
+`subprocess`, `sys`, `textwrap` and `threading`.
 
 The argparse module form the standard library is used to
 create a command line interface. Example usage cases are
