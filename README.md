@@ -15,6 +15,26 @@ Libraries used include `argparse`, `socket`, `shlex`,
 The *argparse* module form the standard library is used to
 create a command line interface. 
 
+## Setting up your dev environment
+
+This project has been done on a Linux environment.
+
+Alternative solutions:
+    - **Linux** works natively (this code is tested on Ubuntu 18.04)
+    - **Windows** is supported through *WSL2*
+    - **MacOS** is not supported
+
+If the solutions above do not work, a Virtual Machine 
+(e.g., Virtual Box running Ubuntu) is a safe and viable option.
+
+## Setting up Python
+
+This project runs on Python 3.6 or higher. Run the following 
+commands to check and update the python version currently installed:
+
+`python3
+ sudo apt-get upgrade python3`
+
 ## Usage
 `usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]`
 
@@ -40,7 +60,10 @@ NetCat's *handle* method executes the task corresponding to the
 command received. The task can be either a command, file or
 a request to open an interractive shell.
 
-**Notice** that the shell scans for a newline character to
+***Notice*** that the shell scans for a newline character to
 determine when to process a command. This implementation makes
 it netcat friendly. That is, you can use this program on the 
 listener side and use netcat itself on the sender side.
+
+## Testing
+
