@@ -1,11 +1,11 @@
 # netcat
 
 Netcat is the Swiss knife of networking, so why not create it
-in Python? Such a usefool tool would be quite an asset if an
+in Python? Such a useful tool would be quite an asset if an
 attacker managed to find a way in. With it, one can read and 
 write data across the network, meaning it can be used to
 execute remote commands, pass files back and forth, or
-even open up an interractive shell. Let's get started:
+even open up an interactive shell. Let's get started:
 
 ## Libraries used
 
